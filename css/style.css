@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Soleil';
+    src: url(../font/Soleil-Regular.woff2) format('woff2'),
+        url(../font/Soleil-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Soleil Bk';
+    src: url(../font/Soleil-Book.woff2) format('woff2'),
+        url(../font/Soleil-Book.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Soleil Lt';
+    src: url(../font/Soleil-Light.woff2) format('woff2'),
+        url(../font/Soleil-Light.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Soleil Bold';
+    src: url(../font/Soleil-Bold.woff2) format('woff2'),
+        url(../font/Soleil-Bold.woff) format('woff');
+    font-weight: bold;
+}
+
+body {
+    background-color: #111111 !important;
+    max-width: 100%;
+}
+
+#hero {
+    margin-top: 100px;
+}
+
+#subtitle {
+    color: #713594;
+}
+
+#legal {
+    margin: 8vw;
+    font-family: 'Soleil Bold'!important;
+    font-weight: bold !important;
+    text-align: left;
+    color:rgb(163, 163, 163);
+}
+
+#legal-top {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 8vw;
+    margin-bottom: 0px;
+    font-family: 'Soleil Bold'!important;
+    font-weight: bold !important;
+    text-align: left;
+    color:rgb(163, 163, 163);
+}
+
+#legal-link {
+    text-align: center;
+}
+
+
+/* TEXT */
+h1 {
+    font-size: 25vw !important;
+    font-family: 'Soleil Bold'!important;
+    font-weight: bold !important;
+    text-align: center;
+    background: linear-gradient(134.12deg, #6508F7 25.38%, #FB8E8E 78.06%, #FFFFFF 122.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    font-size: 3vw !important;
+    font-family: 'Soleil Bold'!important;
+    text-align: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+h4 {
+    font-size: 2.5vw !important;
+    font-family: 'Soleil Bold'!important;
+    text-align: center;
+}
+
+h5 {
+    color: #a3a3a3;
+    text-align: center;
+    font-family: 'Soleil Lt';
+}
+
+h6 {
+    font-size: 12px !important;
+    font-family: 'Soleil Lt';
+}
+
+
+
+/* Icon, Logo */
+
+.material-icons.md-light { 
+    margin-top: 0.5rem;
+    color: #c7c7c7; 
+    font-size: 2vw !important;
+}
+
+.logo-vertical {
+    color:rgb(163, 163, 163);
+    width: 40px;
+}
+
+.logo-vertical-2 {
+    color:rgb(163, 163, 163);
+    width: 45px;
+}
+
+.logo-vertical-3 {
+    color:rgb(163, 163, 163);
+    width: 70px;
+}
+
+.logo-horizontal {
+    color:rgb(163, 163, 163);
+    width: 120px;
+}
+
+.middle {
+    text-align: center;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* unvisited link */
+a:link {
+    color: #c7c7c7 !important;
+  }
+  
+/* visited link */
+a:visited {
+color: #c7c7c7;
+}
+
+/* mouse over link */
+a:hover {
+color: rgb(255, 196, 225) !important;
+transition: 0.9s;
+}
+
+/* selected link */
+a:active {
+color: #c7c7c7;
+}
